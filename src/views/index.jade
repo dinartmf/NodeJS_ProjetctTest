@@ -1,0 +1,16 @@
+extends layout
+
+block content
+
+	h1 Project Test
+
+	form(action="/", method="post")
+		fieldset
+			legend Login
+			label Username
+			input(type="text" name="user[username]")
+			br
+			label Password
+			input(type="password" name="user[password]")
+			br
+			button(type="submit") Send

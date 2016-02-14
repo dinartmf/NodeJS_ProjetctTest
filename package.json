@@ -1,0 +1,26 @@
+{
+  "name": "projectTest",
+  "version": "0.0.1",
+  "description": "Projeto teste com NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dinartmf/NodeJS_ProjetctTest.git"
+  },
+  "author": "Dinart Moreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dinartmf/NodeJS_ProjetctTest/issues"
+  },
+  "dependencies": {
+    "body-parser": "~1.14.2",
+    "jade": "~1.11.0",
+    "restify": "~4.0.4",
+    "validator": "~4.8.0",
+    "unirest": "~0.4.2",
+    "mongoose": "~4.4.3"
+  }
+}
